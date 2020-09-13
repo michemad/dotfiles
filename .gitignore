@@ -1,0 +1,22 @@
+# Ignore files called '.gitconfig'
+.gitconfig
+.gitattributes
+QtProject.conf
+pavucontrol.ini
+
+# Ignoring directories
+# Both the directory itself and its contents will be ignored.
+**/GitHub Desktop/
+**/Thunar/
+**/Unknown Organization
+**/dconf
+**/discord
+**/spotify
+**/xfce4/xfconf/xfce-perchannel-xml
+
+# Ignoring files by extension
+# All files with these extensions will be ignored in
+# this directory and all its sub-directories.
+*.log
+*.class
+
