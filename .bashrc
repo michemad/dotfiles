@@ -27,10 +27,15 @@ alias rifle='vim ~/.config/ranger/rifle.conf'
 alias rc='vim ~/.config/ranger/rc.conf'
 alias rofi='vim ~/.config/rofi/madrofi.rasi'
 alias feh='vim ~/.fehbg'
-alias matlab='setsid -f matlab'
+#alias matlab='setsid -f matlab'
+alias matlab='setsid -f bash /usr/local/MATLAB/R2020b/bin/matlab'
 alias j='conda activate ROexam; jupyter notebook'
 alias sj='sage -n jupyter'
 alias r='ranger'
+alias timeshift='sudo timeshift-gtk'
+alias gparted='sudo gparted'
+alias update='sudo pacman -Syyu && sudo pacman -Sc'
+alias dropbox='sudo ~/.scripts/dropbox.py'
 
 #########################################################
 
